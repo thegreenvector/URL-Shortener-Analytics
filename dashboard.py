@@ -3,8 +3,7 @@ import requests
 import pandas as pd
 import plotly.express as px
 
-API_URL = "http://127.0.0.1:8000"
-
+API_URL = "https://url-shortener-api-6f4s.onrender.com"
 st.set_page_config(page_title="URL Shortener", page_icon="🔗", layout="wide")
 
 st.title("🔗 URL Shortener & Analytics")
